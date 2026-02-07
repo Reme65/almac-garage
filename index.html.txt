@@ -1,4 +1,6 @@
 <!-- index.html -->
+<!-- rebuild trigger -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,4 +42,5 @@
 <p>&copy; 2026 Smith & Sons Garage</p>
 </footer>
 </body>
+
 </html>
