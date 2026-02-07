@@ -1,14 +1,16 @@
 <!-- booking.html -->
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Book an Appointment | Smith & Sons Garage</title>
+<title>Book an Appointment | Almac & Sons Vehicle Services</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
 <nav class="navbar">
-<h1>Smith & Sons Garage</h1>
+<h1>Almac & Sons Vehicle Services</h1>
 <ul>
 <li><a href="index.html">About</a></li>
 <li><a href="services.html">Services</a></li>
@@ -48,14 +50,14 @@
 <section class="contact">
 <h3>Contact Us</h3>
 <p>Phone: 01234 567890</p>
-<p>Email: info@smithandsonsgarage.co.uk</p>
+<p>Email: info@almacandsons.co.uk</p>
 <p>Address: 1 High Street, Yourtown</p>
 </section>
 </main>
 
 
 <footer>
-<p>&copy; 2026 Smith & Sons Garage</p>
+<p>&copy; 2026 Almac & Sons Vehicle Services</p>
 </footer>
 </body>
 </html>
