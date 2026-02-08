@@ -1,68 +1,56 @@
-<!-- booking.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="description" content="Family-run vehicle repairs, MOT testing and servicing in your local area. Trusted, honest and professional service.">
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Book an Appointment | Almac & Sons Vehicle Services</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Book an Appointment | Almac & Sons Vehicle Repairs</title>
+    <meta name="description" content="Book an MOT or service with Almac & Sons Vehicle Repairs. Contact details and enquiry form available.">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body class="booking-page">
+
 <header>
-<nav class="navbar">
-<h1>Almac & Sons Vehicle Services</h1>
-<ul>
-<li><a href="index.html">About</a></li>
-<li><a href="services.html">Services</a></li>
-<li><a href="booking.html">Booking & Contact</a></li>
-</ul>
-</nav>
+    <h1>Booking & Contact</h1>
+    <nav>
+        <a href="index.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="booking.html">Booking</a>
+    </nav>
 </header>
 
-
 <main>
-<h2>Book an Appointment</h2>
-<form class="booking-form">
-<label for="name">Name</label>
-<input type="text" id="name" name="name" required>
+    <h2>Book an Appointment</h2>
 
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" required><br><br>
 
-<label for="email">Email</label>
-<input type="email" id="email" name="email" required>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" required><br><br>
 
+        <label for="service">Service Required:</label><br>
+        <select id="service" required>
+            <option value="">Select a service</option>
+            <option>MOT</option>
+            <option>Service</option>
+            <option>Repair</option>
+        </select><br><br>
 
-<label for="service">Service Required</label>
-<select id="service" name="service" required>
-<option value="mot">MOT</option>
-<option value="service">Servicing</option>
-<option value="repair">Repair</option>
-</select>
+        <button type="submit">Submit</button>
+    </form>
 
-
-<label for="message">Additional Information</label>
-<textarea id="message" name="We will confirm all bookings by phone before any work is carried out."></textarea>
-
-
-<button type="submit">Submit Booking</button>
-</form>
-
-
-<section class="contact">
-<h3>Contact Us</h3>
-<p>Phone: <a href="tel:01234567890">01234 567890</a></p>
-<p>Email: <a href="mailto:info@almacandsons.co.uk">info@almacandsons.co.uk</a></p>
-<p>Address: 1 High Street, Yourtown</p>
-</section>
+    <h3>Contact Us</h3>
+    <p>Phone: <a href="tel:01234567890">01234 567890</a></p>
+    <p>Email: <a href="mailto:info@almacandsons.co.uk">info@almacandsons.co.uk</a></p>
 </main>
 
-
 <footer>
-<p>&copy; 2026 Almac & Sons Vehicle Services</p>
+    <p>&copy; 2026 Almac & Sons Vehicle Repairs</p>
 </footer>
+
 </body>
 </html>
+
 
 
 
