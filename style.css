@@ -4,6 +4,23 @@ font-family: Arial, sans-serif;
 margin: 0;
 line-height: 1.6;
 }
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.home-page header {
+    background-color: #2c3e50; 
+}
+
+.services-page header {
+    background-color: #1f6f5c; 
+}
+
+.booking-page header {
+    background-color: #6b2d2d; 
+}
 
 
 .navbar {
@@ -68,3 +85,4 @@ color: #fff;
 text-align: center;
 padding: 1rem;
 }
+
